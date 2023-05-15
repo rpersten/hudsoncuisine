@@ -1,11 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #060718;
-<<<<<<< HEAD
   background-image: url(./images/food.jpg);
-=======
-  background-image: url(/images/food.jpg);
->>>>>>> e829f5075ad41009a5163d81a22df182be34c8fc
 }
 
 p {
