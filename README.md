@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Momo-Town# hudsoncuisine
-# hudsoncuisine
+
 # hudsoncuisine
 =======
 hudsoncuisine.github.io
