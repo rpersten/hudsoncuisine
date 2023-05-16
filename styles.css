@@ -591,7 +591,13 @@ footer a {
   opacity: 1;
   visibility: visible;
 }
-
+.image-menu{
+  width: 140px;
+  height: 80px;
+}
+.compot{
+  width: 100px;
+}
 @media screen and (max-width: 900px) {
   .homeTxtCol {
     padding-right: 0;

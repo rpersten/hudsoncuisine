@@ -167,7 +167,7 @@ $(document).ready(function() {
     $('.shoppingCartAfter').text(food.length);
 
     if (food.length === 0) {
-      totalAmount = 0;
+      totalAmount = 10;
     } else {
       totalAmount = totalAmount + singleFoodAmount;
     } 
