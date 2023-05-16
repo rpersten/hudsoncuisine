@@ -45,6 +45,11 @@ a:hover {
   font-size: 1.1rem;
   font-weight: 500;
 }
+.translate-btn{
+  background: transparent;
+  border: none;
+  margin-left: 12px;
+}
 
 /* ***********************************Home Section ********************************************/
 #homeSection {
@@ -69,15 +74,16 @@ a:hover {
 }
 
 .homeHeading {
-  font-weight: 400;
-  font-size: 3.4rem;
+  font-family: 'Marck Script', cursive;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #f1d1cf;
+
 }
 
 .homeHeading span {
   font-size: 4.3rem;
-  border: 1px solid #a8763e;
-  background-color: white;
-  color: #a8763e;
+  color: #f1d1cf;
   padding: 1px 5px;
 }
 

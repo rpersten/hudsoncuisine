@@ -18,6 +18,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./styles.css">
+  
 
 </head>
 
@@ -25,7 +26,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Hudson Cuisine</a>
+      <a class="navbar-brand" href="#"><img src="./images/LOGO.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,14 +34,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#categorySection">Categories</a>
+            <a href="#categorySection"class="nav-link">Categories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact Us</a>
+            <a href="#footer" class="nav-link">Contact Us</a>
           </li>
+          <li class="header-item-lang-en"><button id = "en" class="translate-btn"><img src="./images/uk.png" alt="ukflag" width="40px" height="30px"></button></li>
+          <li class="header-item-lang-ru"><button id = "ru" class="translate-btn"><img src="./images/ru.png" alt="ruflag" width="40px" height="30px"></button></li>
         </ul>
       </div>
     </div>
@@ -52,7 +55,7 @@
     <section id="homeSection">
       <div class="row homeRow">
         <div class="col-lg-6 homeTxtCol">
-          <h1 class="homeHeading">Welcome to <br> <span><b>Our restaurant</b></span> <br></h1>
+          <h1 class="homeHeading">Welcome to <br> <span><b>Hudson Cuisine</b></span> <br></h1>
           <br>
           <div class="homeBtnDiv">
             <a href="#categorySection" class="btn btn-light homeBtn">Order Now</a>
@@ -71,6 +74,18 @@
 
     <div class="container">
       <h1 style="text-align: center; margin: 50px auto;"><span style="font-size: 3rem; border: 1px solid #a8763e; background-color: white; color: #6f1a07; padding: 1px 5px;"><b>CATEGORIES</b></span></h1>
+      <div class="col-lg-4 col-sm-4 col-4"style="margin-left:350px">
+        <div class="product-box-layout4 weeks">
+          <div class="item-figure">
+            <img src="./images/specialweeks.jpg" alt="Category" style="width: 100%; height: 100%;">
+          </div>
+          <div class="item-content">
+            <h2 class="card-title">Special for the weeks</h2>
+          </div>
+        </div>
+      </div>
+      
+      
       <div class="row gutters-40">
         <div class="col-lg-4 col-sm-4 col-4">
           <div class="product-box-layout4 momos">
@@ -162,6 +177,378 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div id="weeks" style="display:none;">
+          <div class="row menuHeading">
+            <div class="col-12">
+            </div>
+            <!-- Button trigger modal -->
+            <span class="shoppingCart" data-toggle="modal" data-target="#exampleModal">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="shoppingCartAfter">0</span>
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div class="card">
+                <h2 class="card-title">Soups</h2>
+                <div class="card-body">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p class="soupsFirst">Soup with chicken meatballs(8.8lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">50</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p class="soupsFirst">Soup with chicken meatballs(4.4lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">25</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Pickle with beef(8.8lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">60</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Pickle with beef(4.4lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">30</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Borsch(8.8lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">60</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Borsch(4.4lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">30</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div class="card">
+                <h2 class="card-title">Meat and Fish</h2>
+                <div class="card-body">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Fish cutlets ( 5 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">25</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Beef with Vegetables(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">30</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Teriyaki Chicken( 2 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">12</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Cutlets mix Beef+Pork( 5 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">25</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Chicken Meatballs(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">28</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+
+                  <hr class="foodItemHr">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Cod in Tomato Sauce( 10 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">50</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="row foodItem">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <h2 class="card-title">Vegetables</h2>
+                <div class="card-body">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Grilled Vegetables(2lb)</p>
+                      <p class="text-muted-small"></i><img src="./images/dollar.png">20</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Baked Potatoes with Garlic(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">22</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Braised cabbage with bacon(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">15</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Stuffed Peppers( 5 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">27</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12" style="padding-top: 30px;">
+              <div class="card">
+                <h2 class="card-title">Bakery</h2>
+                <div class="card-body">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Syrniki( 10 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">30</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Khachapuri( 5 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">20</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Puff pastries with apples( 5 pieces)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">20</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-4 col-sm-6 col-12" style="padding-top: 30px;">
+              <div class="card">
+                <h2 class="card-title">Salads</h2>
+                <div class="card-body">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Olivier salad(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">22</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Mimosa salad with salted salmon(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">25</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Shuba salad(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">22</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Salad vinaigrette(2lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">20</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-12" style="padding-top: 30px;">
+              <div class="card">
+                <h2 class="card-title">Drinks</h2>
+                <div class="card-body">
+                  <div class="row foodItem">
+                    <div class="col-9 foodItemName">
+                      <p>Compote(8.8lb)</p>
+                      <p class="text-muted-small"><img src="./images/dollar.png">30</p>
+                    </div>
+                    <div class="col-3 addCol">
+                      <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                      <span class="quantity">0</span>
+                      <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                  </div>
+                  <hr class="foodItemHr">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row checkOutRow">
+            <button type="button" class="btn knowMoreBtn" data-toggle="modal" data-target="#exampleModal">Check Out</button>
+          </div>
+
         </div>
 
         <div id="momos" style="display:none;">
@@ -624,6 +1011,7 @@
 
   <!-- Custom JS -->
   <script src="./index.js"></script>
+  <script src="./language.js"></script>
 
 </body>
 

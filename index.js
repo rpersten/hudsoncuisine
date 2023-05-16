@@ -1,5 +1,5 @@
 let food = [];
-let totalAmount = 0;
+let totalAmount = 10;
 
 $(document).ready(function() {
 
@@ -86,6 +86,14 @@ $(document).ready(function() {
         scrollTop: $('#beverages').offset().top
       }, 800, function() {});
     }
+    else if ($(this)[0].className.search('weeks productClicked') > -1) {
+      $('#weeks').show().siblings('div').hide();
+
+      $('html, body').animate({
+        scrollTop: $('#weeks').offset().top
+      }, 800, function() {});
+    }
+    
   });
 
 
@@ -165,7 +173,7 @@ $(document).ready(function() {
     } 
 
     $('.totalAmountDiv').empty();
-    $('.totalAmountDiv').append('Total Amount: ' + totalAmount);
+    $('.totalAmountDiv').append('Total Amount: ' + totalAmount, ' ( + 10$ delivery )');
 
   }
 
@@ -181,7 +189,7 @@ function openWhatsapp() {
     return
 
   } else {
-    let total = 0;
+    let total = 10;
     let address = $('#address')[0].value;
     let note = $('#note')[0].value;
     let wTxt = '                \n';
@@ -205,7 +213,6 @@ function openWhatsapp() {
 
 
 }
-
 // Did not work out code
 // let totalAmount = 0;
 // let foodNameClickedArray = [];
