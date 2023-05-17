@@ -4,7 +4,7 @@
  * author: Vitalii P.
  *****************************************************/
 
-const googleTranslateConfig = {
+var googleTranslateConfig = {
     /* Original language */
     lang: "en",
     /* The language we translate into on the first visit*/

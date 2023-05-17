@@ -56,7 +56,11 @@ a:hover {
 .translate-btn{
   background: transparent;
   border: none;
+  margin-left: 22px;
+}
+.language{
   margin-left: 12px;
+  margin: 0px 100px;
 }
 
 /* ***********************************Home Section ********************************************/
