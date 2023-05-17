@@ -1,5 +1,5 @@
 let food = [];
-let totalAmount = 0;
+let totalAmount = 10;
 
 $(document).ready(function() {
 
@@ -114,6 +114,7 @@ $(document).ready(function() {
       } else {
         count = count - 1;
         quantity.text(count);
+        totalAmount = totalAmount - singleFoodAmount - singleFoodAmount;
         ToCart(foodNameClicked, count, singleFoodAmount);
       }
     }
@@ -171,6 +172,8 @@ $(document).ready(function() {
     } else {
       totalAmount = totalAmount + singleFoodAmount;
     } 
+
+    
 
     $('.totalAmountDiv').empty();
     $('.totalAmountDiv').append('Total Amount: ' + totalAmount, ' ( + 10$ delivery )');
