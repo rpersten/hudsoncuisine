@@ -693,3 +693,7 @@ footer a {
     font-size: 0.9rem;
   }
 }
+.translate-button{
+  display: flex;
+  margin-left: 500px;
+}
