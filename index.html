@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="./language.js"></script>
+<script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,10 +44,10 @@
           <li class="nav-item">
             <a href="#footer" class="nav-link">Contact Us</a>
           </li>
-          <div class="translate-button">
-            <li class="header-item-lang-en"><button id = "en" class="translate-btn"><img src="./images/uk.png" alt="ukflag" width="40px" height="30px"></button></li>
-            <li class="header-item-lang-ru"><button id = "ru" class="translate-btn"><img src="./images/ru.png" alt="ruflag" width="40px" height="30px"></button></li>
-          </div>
+          <div class="language">
+            <img src="./images/lang__ru.png" alt="ru" data-google-lang="ru" class="language__img translate-btn">
+            <img src="./images/lang__en.png" alt="en" data-google-lang="en"class="language__img translate-btn">
+          </div>  
         </ul>
       </div>
     </div>
