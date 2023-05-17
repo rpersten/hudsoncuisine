@@ -1,5 +1,5 @@
 let food = [];
-let totalAmount = 10;
+let totalAmount = 0;
 
 $(document).ready(function() {
 
@@ -167,7 +167,7 @@ $(document).ready(function() {
     $('.shoppingCartAfter').text(food.length);
 
     if (food.length === 0) {
-      totalAmount = 10;
+      totalAmount = 0;
     } else {
       totalAmount = totalAmount + singleFoodAmount;
     } 

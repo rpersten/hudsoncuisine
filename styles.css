@@ -592,8 +592,10 @@ footer a {
   visibility: visible;
 }
 .image-menu{
-  width: 140px;
-  height: 80px;
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .compot{
   width: 100px;
