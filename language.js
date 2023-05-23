@@ -78,7 +78,3 @@ function TranslateEventHandler(event, selector, handler) {
         if (el) handler(el);
     });
 }
-var text = $('dontwannatotranslate').html();
-var re = new RegExp(text.substr(text.indexOf('\"') - 1));
-var new_text = text.replace(re, '<span class="notranslate">$&</span>')
-$('dontwannatotranslate').html(new_text);

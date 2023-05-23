@@ -1,7 +1,9 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #060718;
-  background-image: url(./images/food.jpg);
+  background-image: url(./images/bgforheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   top: 0 !important;
 }
 .skiptranslate {
@@ -123,7 +125,7 @@ a:hover {
 /* *************************************Category Section ***************************************/
 #categorySection {
   padding-top: 1%;
-  background-color: #6f1a07;
+  background-color: #03182c;
   padding-bottom: 6%;
 }
 
@@ -478,7 +480,7 @@ footer {
 }
 
 .socialMediaIcon {
-  margin-right: 15px;
+  margin-right: 255px;
   font-size: 1.1rem;
 }
 
@@ -588,6 +590,7 @@ footer a {
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
+  margin-bottom: 50px;
 }
 
 #scrollToTop:hover {
