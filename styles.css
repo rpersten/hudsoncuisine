@@ -39,14 +39,16 @@ a:hover {
   width: 100%;
   margin: auto;
 }
+.hc{
 
+}
 .navbar-expand-lg {
-  background-color: #460513;
+  background-color: #a7858a;
   z-index: 2;
 }
 
 .navbar-brand {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Lobster', cursive;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -88,7 +90,7 @@ a:hover {
 }
 
 .homeHeading {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Lobster', cursive;
   font-weight: 600;
   font-size: 3rem;
   color: #f1d1cf;
