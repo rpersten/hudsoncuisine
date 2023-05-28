@@ -203,9 +203,9 @@ function openWhatsapp() {
       total = 10 + total;
     }
     if ($('#note')[0].value === "") {
-      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n\n Will it be self pickup?: ' + yesno;
+      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n\n Will it be delivery?: ' + yesno;
     } else { 
-      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n Note: ' + note + '\n\n Will it be self pickup?: ' + yesno ;
+      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n Note: ' + note + '\n\n Will it be delivery?: ' + yesno ;
     }
 
     let wTxtEncoded = encodeURI(wTxt);
