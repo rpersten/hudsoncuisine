@@ -187,12 +187,6 @@ function openWhatsapp() {
 
   // console.log($('#address'));
 
-  if ($('#address')[0].value === "") {
-    alert("Please Enter Address");
-    return
-    
-  
-  } else {
     let total = 0;
     let yesno = $('#yesno')[0].value;
     let address = $('#address')[0].value;
@@ -205,6 +199,9 @@ function openWhatsapp() {
       total = total + food[i][1] * food[i][2];
       wTxt = wTxt + name + '      ' + quantity + '  \n';
     }
+    if($('#yesno')[0].value === "Yes" || $('#yesno')[0].value === "YES" ||$('#yesno')[0].value === "yEs" ||$('#yesno')[0].value === "YEs" ||$('#yesno')[0].value === "yeS" ||$('#yesno')[0].value === "YeS" ||$('#yesno')[0].value === "yeS" ||$('#yesno')[0].value === "yes"||$('#yesno')[0].value === "Yeah"||$('#yesno')[0].value === "YEAH") {
+      total = 10 + total;
+    }
     if ($('#note')[0].value === "") {
       wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n\n Will it be self pickup?: ' + yesno;
     } else { 
@@ -215,8 +212,6 @@ function openWhatsapp() {
     window.open("https://www.messenger.com/t/102901722189695?text=" + wTxtEncoded);
   }
 
-
-}
 
 // Did not work out code
 // let totalAmount = 0;

@@ -6,6 +6,9 @@ body {
   background-size: cover;
   top: 0 !important;
 }
+.form-control{
+  max-height: 150px;
+}
 .skiptranslate {
   display: none;
   height: 0;
