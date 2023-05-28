@@ -1,5 +1,5 @@
 let food = [];
-let totalAmount = 10;
+let totalAmount = 0;
 
 $(document).ready(function() {
 
@@ -176,7 +176,7 @@ $(document).ready(function() {
     
 
     $('.totalAmountDiv').empty();
-    $('.totalAmountDiv').append('Total Amount: ' + totalAmount, ' ( + 10$ delivery )');
+    $('.totalAmountDiv').append('Total Amount: ' + totalAmount, '');
 
   }
 
@@ -190,9 +190,11 @@ function openWhatsapp() {
   if ($('#address')[0].value === "") {
     alert("Please Enter Address");
     return
-
+    
+  
   } else {
-    let total = 10;
+    let total = 0;
+    let yesno = $('#yesno')[0].value;
     let address = $('#address')[0].value;
     let note = $('#note')[0].value;
     let wTxt = '                \n';
@@ -203,11 +205,10 @@ function openWhatsapp() {
       total = total + food[i][1] * food[i][2];
       wTxt = wTxt + name + '      ' + quantity + '  \n';
     }
-
     if ($('#note')[0].value === "") {
-      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address;
-    } else {
-      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n Note: ' + note;
+      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n\n Will it be self pickup?: ' + yesno;
+    } else { 
+      wTxt = wTxt + '\n *Total Bill: ' + total + '*' + '\n\n Address: ' + address + '\n Note: ' + note + '\n\n Will it be self pickup?: ' + yesno ;
     }
 
     let wTxtEncoded = encodeURI(wTxt);
@@ -216,6 +217,7 @@ function openWhatsapp() {
 
 
 }
+
 // Did not work out code
 // let totalAmount = 0;
 // let foodNameClickedArray = [];

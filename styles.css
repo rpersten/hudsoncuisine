@@ -277,8 +277,8 @@ a:hover {
   right: 0px;
   border-bottom: 20px solid #ffdab3;
   border-left: 20px solid #ffdab3;
-  border-right: 20px solid #6f1a07;
-  border-top: 20px solid #6f1a07;
+  border-right: 20px solid #fd7e14;
+  border-top: 20px solid #fd7e14;
   position: absolute;
   -webkit-filter: drop-shadow(-5px 5px 3px #a6a6a6);
   filter: drop-shadow(-5px 5px 3px #a6a6a6);
@@ -291,8 +291,8 @@ a:hover {
   height: 0px;
   border-top: 30px solid #ffdab3;
   border-right: 30px solid #ffdab3;
-  border-left: 30px solid #6f1a07;
-  border-bottom: 30px solid #6f1a07;
+  border-left: 30px solid #fd7e14;
+  border-bottom: 30px solid #fd7e14;
   bottom: 0px;
   left: 0px;
   position: absolute;
@@ -482,7 +482,7 @@ footer {
 }
 
 .socialMediaIcon {
-  margin-right: 255px;
+  margin-right: 155px;
   font-size: 1.1rem;
 }
 
