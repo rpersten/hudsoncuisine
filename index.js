@@ -199,7 +199,7 @@ function openWhatsapp() {
       total = total + food[i][1] * food[i][2];
       wTxt = wTxt + name + '      ' + quantity + '  \n';
     }
-    if($('#yesno')[0].value === "Yes" || $('#yesno')[0].value === "YES" ||$('#yesno')[0].value === "yEs" ||$('#yesno')[0].value === "YEs" ||$('#yesno')[0].value === "yeS" ||$('#yesno')[0].value === "YeS" ||$('#yesno')[0].value === "yeS" ||$('#yesno')[0].value === "yes"||$('#yesno')[0].value === "Yeah"||$('#yesno')[0].value === "YEAH"||$('#yesno')[0].value === "ДА"||$('#yesno')[0].value === "Да"||$('#yesno')[0].value === "дА") {
+    if($('#yesno')[0].value === "Yes" || $('#yesno')[0].value === "YES"|| $('#yesno')[0].value === "Ye"|| $('#yesno')[0].value === "YE" ||$('#yesno')[0].value === "yEs" ||$('#yesno')[0].value === "YEs" ||$('#yesno')[0].value === "yeS" ||$('#yesno')[0].value === "YeS" ||$('#yesno')[0].value === "yeS" ||$('#yesno')[0].value === "yes"||$('#yesno')[0].value === "Yeah"||$('#yesno')[0].value === "YEAH"|| $('#yesno')[0].value === "Yeap"||$('#yesno')[0].value === "ДА"||$('#yesno')[0].value === "Да"||$('#yesno')[0].value === "дА") {
       total = 10 + total;
     }
     if ($('#note')[0].value === "") {
