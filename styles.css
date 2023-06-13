@@ -620,6 +620,29 @@ footer a {
 .compot{
   width: 150px;
 }
+.About{
+  color: #ffffff;
+  margin: 45px 0px 0px 435px;
+  font-size: 3.9rem;
+}
+.AboutUS{
+  width: 100%;
+  margin: auto;
+}
+.imageAS{
+
+}
+.imageAS:hover {
+  visibility: visible;
+  opacity: 0.6;
+  transform: rotate(3deg);
+}
+.make-green{
+  color: rgb(40,180,99);
+}
+.part3{
+  margin-top: 20px;
+}
 @media screen and (max-width: 900px) {
   .homeTxtCol {
     padding-right: 0;
@@ -653,6 +676,11 @@ footer a {
 
   .col-lg-4.col-sm-6.col-12 .card {
     margin-bottom: 15px;
+  }
+  .About{
+    padding: 0 6px;
+    font-size: 3.9rem;
+    margin-left: 220px;
   }
 }
 
@@ -711,6 +739,11 @@ footer a {
 
   .copyright {
     font-size: 0.9rem;
+  }
+  .About{
+    padding: 0 6px;
+    font-size: 3.9rem;
+    margin-left: 62px;
   }
 }
 .translate-button{
