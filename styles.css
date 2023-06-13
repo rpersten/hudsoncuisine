@@ -622,15 +622,12 @@ footer a {
 }
 .About{
   color: #ffffff;
-  margin: 45px 0px 0px 435px;
+  margin: 45px 0px 0px 775px;
   font-size: 3.9rem;
 }
 .AboutUS{
   width: 100%;
   margin: auto;
-}
-.imageAS{
-
 }
 .imageAS:hover {
   visibility: visible;
@@ -642,6 +639,9 @@ footer a {
 }
 .part3{
   margin-top: 20px;
+}
+.justAtest{
+  margin-left: 200px;
 }
 @media screen and (max-width: 900px) {
   .homeTxtCol {
@@ -743,7 +743,10 @@ footer a {
   .About{
     padding: 0 6px;
     font-size: 3.9rem;
-    margin-left: 62px;
+    margin-left: 82px;
+  }
+  .justAtest{
+    margin-left: 0px;
   }
 }
 .translate-button{
