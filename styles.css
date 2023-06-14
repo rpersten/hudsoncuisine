@@ -643,6 +643,15 @@ footer a {
 .justAtest{
   margin-left: 200px;
 }
+.sizeforpovar{
+  display: flex;
+}
+.part4{
+  margin-bottom: 20px;
+}
+.wrapperforS{
+  display: flex;
+}
 @media screen and (max-width: 900px) {
   .homeTxtCol {
     padding-right: 0;
@@ -681,6 +690,9 @@ footer a {
     padding: 0 6px;
     font-size: 3.9rem;
     margin-left: 220px;
+  }
+  .wrapperforS{
+    display: block;
   }
 }
 
@@ -747,6 +759,12 @@ footer a {
   }
   .justAtest{
     margin-left: 0px;
+  }
+  .part4{
+    margin-left: 120px;
+  }
+  .wrapperforS{
+    display: block;
   }
 }
 .translate-button{
