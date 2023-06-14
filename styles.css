@@ -637,9 +637,6 @@ footer a {
 .part3{
   margin-top: 20px;
 }
-.justAtest{
-  margin-left: 200px;
-}
 .sizeforpovar{
   display: flex;
 }
@@ -687,7 +684,6 @@ footer a {
   .About{
     padding: 0 6px;
     font-size: 3.9rem;
-    margin-left: 220px;
   }
   .wrapperforS{
     display: block;
@@ -758,15 +754,11 @@ footer a {
   .justAtest{
     margin-left: 0px;
   }
-  .part4{
-    margin-left: 120px;
-  }
+
   .wrapperforS{
     display: block;
   }
-  .specialGllery{
-    margin-right: 220px;
-  }
+
 }
 .translate-button{
   display: flex;
